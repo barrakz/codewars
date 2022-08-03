@@ -39,3 +39,4 @@ def clever_walk_solution(walk):
 if __name__ == '__main__':
     print(is_valid_walk(['n', 'n', 'n', 's', 'n', 's', 'n', 's', 'n', 's']))
     print(clever_walk_solution(['n', 's', 'n', 's', 'n', 's', 'n', 's', 'n', 's']))
+    print(clever_walk_solution(['n', 'w', 'n', 's', 'n', 's', 'n', 's', 'n', 's']))
