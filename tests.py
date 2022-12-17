@@ -23,3 +23,4 @@ def test_longest():
     assert longest("abcd", "dcba") == "abcd"
     assert longest("abcd", "") == "abcd"
     assert longest("", "") == ""
+    assert longest("a", "") == "a"
