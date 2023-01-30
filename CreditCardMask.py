@@ -15,6 +15,15 @@ def maskify_better(ccc):
     return '#' * first_characters + last_four
 
 
+def mask_last_four_chars(s):
+    if len(s) <= 4:
+        return s
+    else:
+        return s[:-4] + "####"
+
+
 if __name__ == '__main__':
     print(maskify('SF$SDfgsd2eA'))
     print(maskify_better('fffsdHJK898fsdfds9fsd'))
+    print(mask_last_four_chars("fsfsd43r43fsdfgd54"))
+    print(mask_last_four_chars("FRT"))
